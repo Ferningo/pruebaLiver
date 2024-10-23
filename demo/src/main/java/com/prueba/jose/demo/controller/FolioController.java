@@ -4,13 +4,12 @@ package com.prueba.jose.demo.controller;
 import com.prueba.jose.demo.model.Folio;
 import com.prueba.jose.demo.service.DateService;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
 import java.util.logging.Logger;
 
 @RestController
+@CrossOrigin
 public class FolioController {
 
 
